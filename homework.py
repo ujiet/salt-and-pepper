@@ -65,7 +65,7 @@ def getPSNR(orig, proc):
     return psnr
 
 # source: https://www.pexels.com/photo/woman-looking-at-camera-325531/
-original = cv2.imread('images/beauty.jpg')
+original = cv2.imread('beauty.jpg')
 cv2.imwrite(r'lab\original.jpg', original)
 
 # 分別加入 10, 20, 30% 的 salt & pepper noise
